@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Engineer Salary Data</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>ML Engineer Salary Data</h1>
+    <table id="main-table">
+        <thead>
+            <tr>
+                <th> work_year</th>
+                <th>experience_level</th>
+                <th>employment_type	job_title</th>
+                <th>salary</th>
+                <th>salary_currency	</th>
+                <th>salary_in_usd</th>
+                <th>employee_residence</th>
+                <th>remote_ratio</th>
+                <th>company_location</th>
+                <th>company_size</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Table rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+    <div id="chart-container">
+        <canvas id="line-chart"></canvas>
+    </div>
+
+    <div id="secondary-table-container">
+        <h2>Aggregated Job Titles</h2>
+        <table id="secondary-table">
+            <thead>
+                <tr>
+                    <th> work_year</th>
+                    <th>experience_level</th>
+                    <th>employment_type	job_title</th>
+                    <th>salary</th>
+                    <th>salary_currency	</th>
+                    <th>salary_in_usd</th>
+                    <th>employee_residence</th>
+                    <th>remote_ratio</th>
+                    <th>company_location</th>
+                    <th>company_size</th>
+                </tr>
+            </thead>
+            <tbody id="secondary-table-body">
+                <!-- Secondary table rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
